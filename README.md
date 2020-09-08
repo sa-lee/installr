@@ -11,8 +11,8 @@ programming language to make graphics, produce reports and even create
 interactive web applications. Before you do, you’ll need to get yourself
 ready by installing:
 
-  - the R programming language on your computer
-  - an integrated development environment (IDE) called RStudio that
+-   the R programming language on your computer
+-   an integrated development environment (IDE) called RStudio that
     allows you to write R programs and interact with R code on your
     computer.
 
@@ -22,7 +22,8 @@ from his [Data Visualisation book](http://socviz.co/index.html#install).
 It is also worth reading the [appendix](https://socviz.co/appendix.html)
 which provides a comprehensive tutorial on how to read R documentation.
 
-## Getting started: what’s the difference?
+Getting started: what’s the difference?
+---------------------------------------
 
 You might be asking: so what’s the difference between R and RStudio?
 [Julie Lowndes](http://jules32.github.io/resources/RStudio_intro/) gives
@@ -37,7 +38,8 @@ a great answer:
 The following provides an overview of how to download, install and get
 up and running with R and RStudio.
 
-## Download and install R
+Download and install R
+----------------------
 
 You can [download the R language from the Comprehensive R Archive
 Network](https://cran.r-project.org/) or CRAN for short.
@@ -47,7 +49,8 @@ different operating systems, for example, Linux, (Mac) OS X and Windows.
 To download R to your computer, select the link that corresponds to your
 operating system. You can then install R.
 
-## Download and install RStudio
+Download and install RStudio
+----------------------------
 
 Once you have installed R, you are ready to install RStudio. For this
 course, the free version of RStudio is suitable. Get RStudio from the
@@ -56,7 +59,8 @@ page](https://www.rstudio.com/products/rstudio/download/). Select the
 **‘Download’** link and then select the installer that corresponds to
 your operating system.
 
-## R and RStudio on Windows
+R and RStudio on Windows
+------------------------
 
 If you are a Windows user, the CRAN website will redirect you to a page
 with a list of subdirectories. Select the link called **`base`**.
@@ -66,12 +70,9 @@ on the website may differ.*
 
 <div class="figure" style="text-align: center">
 
-<img src="/Users/lee.s/Documents/installr/img/R-install-windows.png" alt="CRAN website, Windows link" width="1680" />
-
+<img src="img/R-install-windows.png" alt="CRAN website, Windows link" width="1680" />
 <p class="caption">
-
 CRAN website, Windows link
-
 </p>
 
 </div>
@@ -87,7 +88,8 @@ RStudio](https://www.rstudio.com/products/rstudio/download//#download)
 executable. Then, open the **‘.exe’** file and work through the setup
 prompts.
 
-## R and RStudio on Mac OS X
+R and RStudio on Mac OS X
+-------------------------
 
 If you are a Mac OS X user, the CRAN website will redirect you to a page
 with a list of releases. Select the link, for example, **`R-3.6.2.pkg`**
@@ -98,12 +100,9 @@ on the website may differ.*
 
 <div class="figure" style="text-align: center">
 
-<img src="/Users/lee.s/Documents/installr/img/R-install-macos.png" alt="CRAN website, MacOS  link" width="3336" />
-
+<img src="img/R-install-macos.png" alt="CRAN website, MacOS  link" width="3336" />
 <p class="caption">
-
 CRAN website, MacOS link
-
 </p>
 
 </div>
@@ -114,53 +113,50 @@ latest version of
 RStudio](https://www.rstudio.com/products/rstudio/download/#download).
 Then, open the **‘.dmg’** file and then follow the prompts.
 
-## Check your installation\!
+Check your installation!
+------------------------
 
 Well done, you’ve installed R and RStudio on your computer. Open RStudio
 to check that everything has installed correctly and to explore the
 RStudio interface. The RStudio interface should be divided into **four**
 panes:
 
-  - **scripts** pane - the place where you write and save your R code.
+-   **scripts** pane - the place where you write and save your R code.
 
-  - tab for the **console** - the place where your code gets run. You
+-   tab for the **console** - the place where your code gets run. You
     can write code directly in here, but you might forget the code you
     write, so it’s a good idea to write your code in the **scripts**
     pane.
 
-  - tab for **Files**, **Plots**, **Packages**, **Help**, and a
+-   tab for **Files**, **Plots**, **Packages**, **Help**, and a
     **Viewer** - files are listed here, just like a ‘Finder’ in Mac OS X
     or ‘My Computer’ in Windows.
 
-  - tab for **Environment**, **History** and **Connections** - things
+-   tab for **Environment**, **History** and **Connections** - things
     you create in R that are a result of code being run, such as data,
     objects and models are listed in the **Environment**.
 
 <div class="figure" style="text-align: center">
 
-<img src="/Users/lee.s/Documents/installr/img/Rstudio-01.png" alt="The Rstudio IDE" width="1920" />
-
+<img src="img/Rstudio-01.png" alt="The Rstudio IDE" width="1920" />
 <p class="caption">
-
 The Rstudio IDE
-
 </p>
 
 </div>
 
-## Playing with the console
+Playing with the console
+------------------------
 
 Continue to explore RStudio by making your way through this exercise -
 using R as a calculator. At the prompt of your **console** in RStudio,
 run the following code chunk:
 
-``` r
-1999 * 2 / 1000
+    1999 * 2 / 1000
 
-(39 + 13 + 2) / 4
+    (39 + 13 + 2) / 4
 
-cos(pi)
-```
+    cos(pi)
 
 Store the results of your computation as an object using the left arrow
 **`<-`** (The shortcut in RStudio is **Alt + -**).
@@ -168,9 +164,7 @@ Store the results of your computation as an object using the left arrow
 Again, at the prompt of your **console** in RStudio, run the following
 code chunk:
 
-``` r
-my_variable <- 7 * 8
-```
+    my_variable <- 7 * 8
 
 ### What’s it doing?
 
@@ -181,7 +175,7 @@ RStudio the object called **`my_variable`** should be listed in the
 Print the value of **`my_variable`** again by typing **`my_variable`**
 at the console.
 
-### Naming conventions are important\!
+### Naming conventions are important!
 
 Names of objects are important. You want them to be descriptive, and if
 you have multiple words in a name you need a way of dealing with that.
@@ -195,11 +189,9 @@ will not be able to correctly interpret the result.
 
 Try running the following code:
 
-``` r
-my_Variable
+    my_Variable
 
-my_varíable
-```
+    my_varíable
 
 ### Why does R give you an error?
 
@@ -208,22 +200,21 @@ case **`V`** instead of a lower case **`v`**. Similarly, the second is
 an error because there was an accented **`i`** instead of an unaccented
 **`i`**.
 
-## Using functions
+Using functions
+---------------
 
 Most computations are performed by using *functions*. Functions take
 some input (arguments) and return an output. As an example, let’s use
-R’s built-in random number generator function **`runif()`** to
-generate 10 random numbers between 0 and 1.
+R’s built-in random number generator function **`runif()`** to generate
+10 random numbers between 0 and 1.
 
 If you type the number 10 as the first argument you will get 10 random
 numbers between 0 and 1.
 
-``` r
-runif(10)
-```
+    runif(10)
 
-    #>  [1] 0.7224161 0.8989777 0.5366260 0.5998264 0.9198480 0.2869147 0.2207880
-    #>  [8] 0.3949448 0.9775650 0.8837863
+    #>  [1] 0.92839886 0.46449002 0.04818191 0.69480327 0.41724380 0.32039746
+    #>  [7] 0.52299628 0.87792516 0.25499229 0.22415195
 
 If you type **`runif()`** in the RStudio console and then press **TAB**
 on your keyboard, a floating tooltip will appear that contains the names
@@ -231,33 +222,27 @@ of the inputs to the function.
 
 You can be more explicit by specifying each input:
 
-``` r
-runif(n = 10, min = 0, max = 1)
-```
+    runif(n = 10, min = 0, max = 1)
 
-    #>  [1] 0.001595329 0.985261840 0.796639367 0.244227832 0.697204838 0.012283363
-    #>  [7] 0.085098209 0.654907707 0.816527298 0.777101882
+    #>  [1] 0.21405482 0.89502499 0.94233480 0.02090746 0.69556738 0.96907639
+    #>  [7] 0.30527574 0.77819456 0.83322272 0.69442338
 
 By changing the values of the arguments, we can finally generate our
 numbers between 0 and 10.
 
-``` r
-runif(10, min = 0, max = 10)
-```
+    runif(10, min = 0, max = 10)
 
-    #>  [1] 9.9259487 4.9718111 0.5992393 9.3204654 6.6111862 5.1644892 3.8481635
-    #>  [8] 0.9777816 9.2012801 8.5915430
+    #>  [1] 0.10186119 9.00398050 3.24546894 0.03419559 4.35507091 4.08026104
+    #>  [7] 3.57905883 7.64683251 1.86506479 4.88547155
 
 And you can save the result to an object using the **`<-`** operator.
 
-``` r
-y <- runif(10, min  = 0, max = 10)
+    y <- runif(10, min  = 0, max = 10)
 
-y
-```
+    y
 
-    #>  [1] 5.84733961 8.16087799 0.47168510 0.09383684 7.24561215 7.41124100
-    #>  [7] 3.37423273 3.06259461 7.98479712 5.05797652
+    #>  [1] 9.757155 9.057057 3.806425 2.415137 6.622209 1.045418 3.047164 4.792180
+    #>  [9] 4.068325 8.059160
 
 ### Computing summaries
 
@@ -273,17 +258,19 @@ you can do this from the **Console**.
 Remember, if you are not sure how to use the function, type the name of
 it in the console and press **TAB** on your keyboard.
 
-## Lab Exercise: so random\!
+Lab Exercise: so random!
+------------------------
 
-  - **You may have noticed the numbers you generated at your R console
+-   **You may have noticed the numbers you generated at your R console
     are different from the ones presented earlier. Why is that?**
-  - **Look up the help file for the function `set.seed` by typing a
+-   **Look up the help file for the function `set.seed` by typing a
     question mark in front of it at the console: `?set.seed`.** If you
     need help understanding this read over this
     [document](https://socviz.co/appendix.html).
-  - **How could you use it to ensure you get the same random numbers?**
+-   **How could you use it to ensure you get the same random numbers?**
 
-## Setting up for success: data science workflow
+Setting up for success: data science workflow
+---------------------------------------------
 
 When working on a new project, it is possible for your files to be
 spread out and stored in different locations across your computer.
@@ -292,34 +279,33 @@ This can create problems, particularly when you are programming because
 knowing exactly where your files are is really important. When they are
 spread out, this makes extra work for yourself.
 
-## Getting into the workflow
+Getting into the workflow
+-------------------------
 
 Storing files in folders, and folders in a ‘filing cabinet’ helps
 centralise your work: it keeps it organised so it is easier to find.
 
 Using **RStudio projects** is like providing a filing cabinet for your
-work\! Using them centralises your work, making your life easier as you
+work! Using them centralises your work, making your life easier as you
 do not have to manage where files are. For each project, you need to
 create **one** RStudio project.
 
-## Creating a new RStudio project
+Creating a new RStudio project
+------------------------------
 
 Make your way through the following steps to create an RStudio project
 on your computer for all the work that you’ll do in this course.
 
 ### Step 1: Start a new project
 
-On your computer, open RStudio. Then, select **‘File’** \> **‘New
+On your computer, open RStudio. Then, select **‘File’** &gt; **‘New
 Project’**.
 
 <div class="figure" style="text-align: center">
 
-<img src="/Users/lee.s/Documents/installr/img/Rstudio-02.png" alt="Setting up projects" width="1920" />
-
+<img src="img/Rstudio-02.png" alt="Setting up projects" width="1920" />
 <p class="caption">
-
 Setting up projects
-
 </p>
 
 </div>
@@ -331,12 +317,9 @@ RStudio. From the pop-up window, select **‘New directory’**.
 
 <div class="figure" style="text-align: center">
 
-<img src="/Users/lee.s/Documents/installr/img/Rstudio-03.png" alt="Selecting a directory" width="937" />
-
+<img src="img/Rstudio-03.png" alt="Selecting a directory" width="937" />
 <p class="caption">
-
 Selecting a directory
-
 </p>
 
 </div>
@@ -347,12 +330,9 @@ You’re creating a new project, so select **‘New project’**.
 
 <div class="figure" style="text-align: center">
 
-<img src="/Users/lee.s/Documents/installr/img/Rstudio-04.png" alt="Project type" width="793" />
-
+<img src="img/Rstudio-04.png" alt="Project type" width="793" />
 <p class="caption">
-
 Project type
-
 </p>
 
 </div>
@@ -366,44 +346,39 @@ Select **‘Create project’** once you’ve named your directory.
 
 <div class="figure" style="text-align: center">
 
-<img src="/Users/lee.s/Documents/installr/img/Rstudio-05.png" alt="Project type" width="789" />
-
+<img src="img/Rstudio-05.png" alt="Naming the project" width="789" />
 <p class="caption">
-
-Project type
-
+Naming the project
 </p>
 
 </div>
 
-### Step 5: Well done, you’ve now created a RStudio project\!
+### Step 5: Well done, you’ve now created a RStudio project!
 
 Your RStudio will have a projects tab on the upper right hand corner.
 Remember, every time you start to work on something for this course, be
-sure to open this project\!
+sure to open this project!
 
 Whenever you are ready to write code for the course go to your project
 folder and then select the <strong>‘.Rproj’</strong> file. This will
-automatically open RStudio and take you to the right directory\!
+automatically open RStudio and take you to the right directory!
 
 <div class="figure" style="text-align: center">
 
-<img src="/Users/lee.s/Documents/installr/img/Rstudio-06.png" alt="The final view:" width="1920" />
-
+<img src="img/Rstudio-06.png" alt="The final view:" width="1920" />
 <p class="caption">
-
 The final view:
-
 </p>
 
 </div>
 
-## Installing packages
+Installing packages
+-------------------
 
 Packages are the way R users share useful code. You can think of each R
 package as a book. Once you’ve installed a package, you can load the
 code contained in it using `library` - which is like checking out a book
-from the library\!
+from the library!
 
 There are more than 14,000 packages available on
 [CRAN](https://cran.r-project.org/) contributed by a range of R users,
@@ -416,11 +391,10 @@ Wang’s `mists` package](https://github.com/earowang/mists)
 As an example, you can install the `rmarkdown` package for making
 reproducible reports using the following code chunk:
 
-``` r
-install.packages("rmarkdown")
-```
+    install.packages("rmarkdown")
 
-## Lab Exercise: Setting yourself up for the course
+Lab Exercise: Setting yourself up for the course
+------------------------------------------------
 
 Continue to develop your skills in RStudio by making your way through
 this exercise. Follow the instructions specified in **‘Creating a new
@@ -435,12 +409,10 @@ packages throughout the course to read, visualise and analyse data.
 After you’ve installed the packages, run `library(tidyverse)` at the
 console, then, run the following code chunk:
 
-``` r
-glimpse(diamonds)
-filter(diamonds, carat <= 2.5)
-```
+    glimpse(diamonds)
+    filter(diamonds, carat <= 2.5)
 
-  - **What happened when you ran `library(tidyverse)` at the console?**
-  - **Do you think that you’ll always need to run that code to use the
+-   **What happened when you ran `library(tidyverse)` at the console?**
+-   **Do you think that you’ll always need to run that code to use the
     `tidyverse`?**
-  - **What happened when you ran the code chunk?**
+-   **What happened when you ran the code chunk?**

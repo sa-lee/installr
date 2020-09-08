@@ -82,7 +82,7 @@ _Please note, the following image is an example only; the version listed on the
 website may differ._
 
 ```{r, echo = FALSE, fig.cap="CRAN website, Windows link"}
-knitr::include_graphics(here::here("img", "R-install-windows.png"))
+knitr::include_graphics("img/R-install-windows.png")
 ```
 
 
@@ -105,7 +105,7 @@ _Please note, the following image is an example only; the version listed on the
 website may differ._
 
 ```{r, echo = FALSE, fig.cap="CRAN website, MacOS  link"}
-knitr::include_graphics(here::here("img", "R-install-macos.png"))
+knitr::include_graphics("img/R-install-macos.png")
 ```
 
 Once R has finished downloading, open the __'.pkg'__ and then work through the
@@ -128,7 +128,7 @@ interface. The RStudio interface should be divided into __four__ panes:
 - tab for __Environment__, __History__ and __Connections__ -  things you create in R that are a result of code being run, such as data, objects and models are listed in the __Environment__.
 
 ```{r, echo = FALSE, fig.cap = "The Rstudio IDE"}
-knitr::include_graphics(here::here("img", "Rstudio-01.png"))
+knitr::include_graphics("img/Rstudio-01.png")
 ```
 
 ## Playing with the console
@@ -283,7 +283,7 @@ computer for all the work that you'll do in this course.
 On your computer, open RStudio. Then, select **'File'** &gt; **'New Project'**.
 
 ```{r, echo = FALSE, fig.cap = "Setting up projects"}
-knitr::include_graphics(here::here("img", "Rstudio-02.png"))
+knitr::include_graphics("img/Rstudio-02.png")
 ```
 
 ### Step 2: Set a directory
@@ -292,7 +292,7 @@ A pop-up window labelled **'New Project'** should be displayed in RStudio. From
 the pop-up window, select **'New directory'**.
 
 ```{r, echo = FALSE, fig.cap = "Selecting a directory"}
-knitr::include_graphics(here::here("img", "Rstudio-03.png"))
+knitr::include_graphics("img/Rstudio-03.png")
 ```
 
 
@@ -301,7 +301,7 @@ knitr::include_graphics(here::here("img", "Rstudio-03.png"))
 You're creating a new project, so select **'New project'**.
 
 ```{r, echo = FALSE, fig.cap = "Project type"}
-knitr::include_graphics(here::here("img", "Rstudio-04.png"))
+knitr::include_graphics("img/Rstudio-04.png")
 ```
 
 
@@ -313,7 +313,7 @@ name it by the course you are taking, like "intro_datascience".
 Select **'Create project'** once you've named your directory.
 
 ```{r, echo = FALSE, fig.cap = "Naming the project"}
-knitr::include_graphics(here::here("img", "Rstudio-05.png"))
+knitr::include_graphics("img/Rstudio-05.png")
 ```
 
 ### Step 5: Well done, you've now created a RStudio project!
@@ -328,7 +328,7 @@ and then select the <strong>'.Rproj'</strong> file. This will automatically
 open RStudio and take you to the right directory!
 
 ```{r, echo = FALSE, fig.cap = "The final view:"}
-knitr::include_graphics(here::here("img", "Rstudio-06.png"))
+knitr::include_graphics("img/Rstudio-06.png")
 ```
 
 ## Installing packages
